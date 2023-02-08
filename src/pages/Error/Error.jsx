@@ -12,7 +12,7 @@ export default function Error() {
             </div>
             <section className='sec'>
                <h1> I have bad news for you</h1>
-               <p>The page you are looking for might be removed or is temporarily unavailable</p>
+               <p className='sec__p'>The page you are looking for might be removed or is temporarily unavailable</p>
                <a href="/" className="return">
                   <span className="return__txt">BACK TO HOMEPAGE</span>
                </a>
