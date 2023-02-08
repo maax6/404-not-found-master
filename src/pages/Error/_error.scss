@@ -1,0 +1,57 @@
+/*--- Error ---*/
+ .errContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 200vh;
+ }
+
+.notFound {
+   font-size: 24px;
+   font-weight: 700;
+   // padding: 20px;
+   // @include media-query(medium) {
+   //    padding: 30px;
+   // }
+   // @include media-query(large) {
+   //    font-size: 36px;
+   //    padding: 40px;
+   // }
+}
+.sec{
+   display: flex;
+   flex-direction: column;
+   gap: 2em;
+}
+.scarecrow {
+   margin-top: 65px;
+   display: flex;
+   justify-content: center;
+  &__img {
+   width: 286px;
+  }
+}
+a{
+   text-decoration: none;
+   font-weight: 700;
+}
+h1{
+   font-weight: 700;
+   font-size: 48px;
+line-height: 71px;
+letter-spacing: -0.035em;
+}
+
+.return {display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 68px;
+   width: 216px;
+   font-size: 14px;
+   padding : 1em;
+   background-color: #333333;
+   color: #ffffff;
+}
+
+
+/*--- Fin Error ---*/
