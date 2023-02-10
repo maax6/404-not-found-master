@@ -2,6 +2,7 @@ import scarecrow from './Scarecrow.png';
 
 export default function Error() {
    return (
+
       <div className="errContainer">
          <header className="notFound">
             <strong>404 NOT FOUND</strong>
@@ -18,6 +19,11 @@ export default function Error() {
                </a>
             </section>
          </main>
+         <footer>
+         <p>
+            created by ⌘ Maxime - devChallenges.io
+         </p>
+         </footer>
 
       </div>
    )
