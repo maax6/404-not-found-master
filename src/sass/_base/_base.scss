@@ -3,6 +3,11 @@ html {
  font-family: "Space Mono";
  height: 100%;
 }
+body{
+	height: 100%;
+}
 #root {
- color: #333333;
+	color: #333333;
+	height: 100%;
+	display: flex;
 }

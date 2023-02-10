@@ -1,9 +1,14 @@
 /*--- Error ---*/
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&display=swap');
-.errContainer {
+main {
   display: flex;
   flex-direction: column;
-  margin: 23px;
+  margin: 20px 24px;
+  height: 100%;
+  width: 100%;
+  @include media-query(large) {
+    margin: 40px 77px 20px;
+  }
 }
 .notFound {
   font-family: 'Inconsolata';
@@ -13,20 +18,13 @@
   line-height: 25px;
   letter-spacing: -0.08em;
   margin-bottom: 64px;
-  // padding: 20px;
-  // @include media-query(medium) {
-  //    padding: 30px;
-  // }
-  // @include media-query(large) {
-  //    font-size: 36px;
-  //    padding: 40px;
-  // }
 }
 #flex {
   display: flex;
   flex-direction: column;
+  height: 100%;
   @include media-query(large) {
-   flex-direction: row;
+    flex-direction: row;
   }
 }
 .scarecrow {
@@ -34,12 +32,14 @@
   justify-content: center;
   &__img {
     width: 286px;
+    height: 238px;
     margin-bottom: 2em;
+    @include media-query(large) {
+      margin-bottom: 0;
+    }
   }
 }
 .sec {
-  display: flex;
-  flex-direction: column;
   &__p {
     font-style: normal;
     font-weight: 400;
@@ -50,7 +50,6 @@
   }
 }
 #badNews {
-  font-family: 'Space Mono';
   font-size: 45px;
   line-height: 71px;
   margin-bottom: 30px;
@@ -72,10 +71,13 @@
 }
 
 footer {
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  align-items: center;
+  width: 100%;
   font-weight: 500;
+  display: flex;
+}
+footer p {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 17px;
 }
 /*--- Fin Error ---*/
