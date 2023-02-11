@@ -5,7 +5,6 @@ main {
   flex-direction: column;
   margin: 20px 24px;
   height: 100%;
-  width: 100%;
   @include media-query(large) {
     margin: 40px 77px 20px;
   }
@@ -22,7 +21,6 @@ main {
 #flex {
   display: flex;
   flex-direction: column;
-  height: 100%;
   @include media-query(large) {
     flex-direction: row;
   }
@@ -71,13 +69,18 @@ main {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   font-weight: 500;
   display: flex;
+  min-height:50px; 
+  background:PapayaWhip
 }
 footer p {
   font-family: 'Montserrat';
   font-size: 14px;
   line-height: 17px;
+  width: 100%;
 }
 /*--- Fin Error ---*/
