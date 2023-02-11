@@ -1,15 +1,15 @@
 /*--- Error ---*/
-
-.wrapper-404 {
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&display=swap');
+main {
   display: flex;
   flex-direction: column;
   margin: 20px 24px;
-  min-height: 100%;
+  height: 100%;
   @include media-query(large) {
     margin: 40px 77px 20px;
   }
 }
-.notFound-logo {
+.notFound {
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 700;
@@ -18,7 +18,7 @@
   letter-spacing: -0.08em;
   margin-bottom: 64px;
 }
-#switchFlex {
+#flex {
   display: flex;
   flex-direction: column;
   @include media-query(large) {
@@ -34,8 +34,6 @@
     margin-bottom: 2em;
     @include media-query(large) {
       margin-bottom: 0;
-      width: 540px;
-      height: 447px;
     }
   }
 }
@@ -71,19 +69,15 @@
 }
 
 footer {
-  width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  width: 100%;
   font-weight: 500;
   display: flex;
-  height:40px; 
-  background:PapayaWhip;
-  text-align: center;
+  min-height:50px; 
+  background:PapayaWhip
 }
 footer p {
-  position: absolute;
-  bottom: 0;
-  height: 40px;
   font-family: 'Montserrat';
   font-size: 14px;
   line-height: 17px;
