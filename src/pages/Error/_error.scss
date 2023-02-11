@@ -1,13 +1,10 @@
 /*--- Error ---*/
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&display=swap');
-.wrapper-404 {
+.error {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 20px 24px;
-  height: 100%;
-  @include media-query(large) {
-   padding: 40px 77px 20px;
-  }
 }
 .notFound {
   font-family: 'Inconsolata';
@@ -20,6 +17,7 @@
 }
 #flex {
   display: flex;
+  max-width: 100vh;
   flex-direction: column;
   @include media-query(large) {
     flex-direction: row;
@@ -34,12 +32,14 @@
     margin-bottom: 2em;
     @include media-query(large) {
       margin-bottom: 0;
+      width:540px;
+      height: 448px;
     }
   }
 }
 .sec {
   &__p {
-    font-style: normal;
+    font-family: 'Space-mono';
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -48,6 +48,7 @@
   }
 }
 #badNews {
+  font-family: 'Space-mono';
   font-size: 45px;
   line-height: 71px;
   margin-bottom: 30px;
@@ -68,13 +69,8 @@
   font-weight: 700;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
+.text-footer {
   width: 100%;
-  font-weight: 500;
-  display: flex;
-  min-height:50px; 
   background:PapayaWhip
 }
 footer p {
