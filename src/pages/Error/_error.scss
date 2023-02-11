@@ -3,10 +3,10 @@
 .wrapper-404 {
   display: flex;
   flex-direction: column;
-  margin: 20px 24px;
+  padding: 20px 24px;
   height: 100%;
   @include media-query(large) {
-    margin: 40px 77px 20px;
+   padding: 40px 77px 20px;
   }
 }
 .notFound {
@@ -69,7 +69,7 @@
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   font-weight: 500;
