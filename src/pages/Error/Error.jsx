@@ -2,15 +2,15 @@ import scarecrow from './Scarecrow.png'
 
 export default function Error() {
   return (
-    <main>
-      <header className="notFound">
+    <div className="wrapper-404">
+      <header className="notFound-logo">
         <strong>404 NOT FOUND</strong>
       </header>
-      <div id="flex">
+      <div id="switchFlex">
         <div className="scarecrow">
           <img className="scarecrow__img" src={scarecrow} alt="épouvantail" />
         </div>
-        <section className="sec">
+        <div className="sec">
           <h1 id="badNews"> I have bad news for you</h1>
           <p className="sec__p">
             The page you are looking for might be removed or is temporarily
@@ -19,11 +19,11 @@ export default function Error() {
           <a href="/" className="return">
             <span className="return__txt">BACK TO HOMEPAGE</span>
           </a>
-        </section>
+        </div>
       </div>
       <footer>
         <p>created by ⌘ Maxime - devChallenges.io</p>
       </footer>
-    </main>
+    </div>
   )
 }
