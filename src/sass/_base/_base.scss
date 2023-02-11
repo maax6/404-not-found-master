@@ -1,15 +1,22 @@
 html {
   font-family: 'Space Mono';
+  height: max-content;
+  min-height: 100%;
+  width: 100%;
 }
 // :root{
 
 body {
+  
+  min-height: 100%;
+  width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
   color: #333333;
-  overflow: hidden;
 }
 #root {
-	max-width: 1280px;
- }
+  height: max-content;
+  min-height: 100%;
+  width: 100%;
+}
