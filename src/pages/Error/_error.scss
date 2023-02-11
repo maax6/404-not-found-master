@@ -21,6 +21,7 @@
   flex-direction: column;
   @include media-query(large) {
     flex-direction: row;
+    margin-top: 200px;
   }
 }
 .scarecrow {
@@ -51,6 +52,10 @@
   }
 }
 .sec {
+  @include media-query(large) {
+    margin-left: 144px;
+    margin-right: 144px;
+  }
   &__p {
     font-weight: 400;
     font-size: 18px;
@@ -62,6 +67,7 @@
       line-height: 36px;
       width: 381px;
       height: 108px;
+
     }
   }
 }
@@ -80,8 +86,10 @@
 }
 
 .text-footer {
-  width: 100%;
-  background: PapayaWhip;
+  width: 100%;text-align: center;
+  // background: PapayaWhip;
+  position: fixed;
+  bottom: 0;
 }
 footer p {
   font-family: 'Montserrat';
