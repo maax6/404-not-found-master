@@ -2,7 +2,7 @@ import scarecrow from './Scarecrow.png'
 
 export default function Error() {
   return (
-    <main>
+    <div className='wrapper-404'>
       <header className="notFound">
         <strong>404 NOT FOUND</strong>
       </header>
@@ -24,6 +24,6 @@ export default function Error() {
       <footer>
         <p>created by ⌘ Maxime - devChallenges.io</p>
       </footer>
-    </main>
+    </div>
   )
 }
