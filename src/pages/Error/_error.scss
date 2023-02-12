@@ -4,7 +4,10 @@
   display: flex;
   flex-direction: column;
   padding: 20px 24px;
-  height: 100%;
+  min-height: 100vh;
+  justify-content: space-between;
+  @include media-query(medium) {
+  }
   @include media-query(large) {
     padding: 40px 77px 20px;
   }
@@ -16,67 +19,71 @@
   font-size: 24px;
   line-height: 25px;
   letter-spacing: -0.08em;
-  margin-bottom: 64px;
 }
-#flex {
+.flexContainer {
   display: flex;
   flex-direction: column;
   @include media-query(large) {
     flex-direction: row;
-    margin-top: 12em;
+    height: 100%;
   }
 }
 .scarecrow {
-  width: auto;
+  display: flex;
+  width: 100%;
+  @include media-query(large) {
+  }
   &__img {
     width: 100%;
-  }
-  margin-bottom: 2em;
-  @include media-query(large) {
-    margin-bottom: 0;
+    aspect-ratio: 1/1;
   }
 }
 
-#badNews {
-  font-size: 45px;
-  line-height: 71px;
-  margin-bottom: 30px;
-  letter-spacing: -0.035em;
-  @include media-query(large) {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 95px;
-  }
-}
-.sec {
+.badNews {
   @include media-query(large) {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  &__p {
-    font-size: 18px;
-    line-height: 27px;
-    letter-spacing: -0.035em;
-    margin-bottom: 66px;
-    @include media-query(large) {
-      font-size: 24px;
-      line-height: 36px;
+  &__texts {
+      display: flex;
+      flex-direction: column;
+    &__title {
+      font-size: 45px;
+      line-height: 71px;
+      letter-spacing: -0.035em;
+      @include media-query(large) {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 95px;
+      }
+    }
+    &__speech {
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: -0.035em;
+      @include media-query(large) {
+        font-size: 24px;
+        line-height: 36px;
+      }
     }
   }
-}
-.return__btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 68px;
-  max-width: 216px;
-  font-size: 14px;
-  font-weight: 700;
-  background-color: #333333;
-  color: #ffffff;
-  text-decoration: none;
+  &__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    max-width: 216px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    &__txt {
+      text-align: center;
+    }
+  }
 }
 .text-footer {
   font-family: 'Montserrat';
@@ -84,9 +91,9 @@
   text-align: center;
   font-size: 14px;
   line-height: 17px;
-  position: fixed;
-  bottom: 0;
-  left: 0px;
+  // position: fixed;
+  // bottom: 0;
+  // left: 0px;
   @include media-query(xsmall) {
     max-width: 100%;
   }
