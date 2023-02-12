@@ -1,10 +1,13 @@
 /*--- Error ---*/
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&display=swap');
-.error {
-  position: relative;
+.wrapper-404 {
   display: flex;
   flex-direction: column;
   padding: 20px 24px;
+  height: 100%;
+  @include media-query(large) {
+    padding: 40px 77px 20px;
+  }
 }
 .notFound {
   font-family: 'Inconsolata';
@@ -17,27 +20,23 @@
 }
 #flex {
   display: flex;
-  max-width: 100vh;
   flex-direction: column;
   @include media-query(large) {
     flex-direction: row;
-    margin-top: 200px;
+    margin-top: 12em;
   }
 }
 .scarecrow {
-  display: flex;
-  justify-content: center;
+  width: auto;
   &__img {
-    width: 286px;
-    height: 238px;
-    margin-bottom: 2em;
-    @include media-query(large) {
-      margin-bottom: 0;
-      width: 540px;
-      height: 448px;
-    }
+    width: 100%;
+  }
+  margin-bottom: 2em;
+  @include media-query(large) {
+    margin-bottom: 0;
   }
 }
+
 #badNews {
   font-size: 45px;
   line-height: 71px;
@@ -47,17 +46,15 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 95px;
-    width: 586px;
-    height: 190px;
   }
 }
 .sec {
   @include media-query(large) {
-    margin-left: 144px;
-    margin-right: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   &__p {
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: -0.035em;
@@ -65,36 +62,33 @@
     @include media-query(large) {
       font-size: 24px;
       line-height: 36px;
-      width: 381px;
-      height: 108px;
-
     }
   }
 }
-.return {
+.return__btn {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 68px;
-  width: 216px;
+  max-width: 216px;
   font-size: 14px;
   font-weight: 700;
   background-color: #333333;
   color: #ffffff;
   text-decoration: none;
 }
-
 .text-footer {
-  width: 100%;text-align: center;
-  // background: PapayaWhip;
-  position: fixed;
-  bottom: 0;
-}
-footer p {
   font-family: 'Montserrat';
+  width: 100%;
+  text-align: center;
   font-size: 14px;
   line-height: 17px;
-  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+  @include media-query(xsmall) {
+    max-width: 100%;
+  }
 }
 /*--- Fin Error ---*/
