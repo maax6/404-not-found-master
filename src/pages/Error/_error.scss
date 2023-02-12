@@ -6,7 +6,7 @@
   flex-direction: column;
   padding: 20px 24px;
 }
-.notFound {
+.hdr-notFound {
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 700;
@@ -15,46 +15,49 @@
   letter-spacing: -0.08em;
   margin-bottom: 64px;
 }
-#flex {
+.flex {
   display: flex;
   max-width: 100vh;
   flex-direction: column;
-  @include media-query(large) {
+  @include media-query(xlarge) {
     flex-direction: row;
     margin-top: 200px;
   }
-}
-.scarecrow {
-  display: flex;
-  justify-content: center;
-  &__img {
-    width: 286px;
-    height: 238px;
-    margin-bottom: 2em;
-    @include media-query(large) {
-      margin-bottom: 0;
-      width: 540px;
-      height: 448px;
+  &__container {
+    display: flex;
+    justify-content: center;
+    &__img {
+      width: 286px;
+      height: 238px;
+      margin-bottom: 2em;
+      @include media-query(large) {
+        margin-bottom: 0;
+      }
+      @include media-query(xlarge) {
+        margin-bottom: 0;
+        width: 540px;
+        height: 448px;
+      }
     }
   }
 }
-#badNews {
-  font-size: 45px;
-  line-height: 71px;
-  margin-bottom: 30px;
-  letter-spacing: -0.035em;
-  @include media-query(large) {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 95px;
-    width: 586px;
-    height: 190px;
-  }
-}
 .sec {
+  background: thistle;
+  &__title {
+    font-size: 45px;
+    line-height: 71px;
+    margin-bottom: 30px;
+    letter-spacing: -0.035em;
+    @include media-query(xlarge) {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 95px;
+      width: 586px;
+      height: 190px;
+    }
+  }
   @include media-query(large) {
-    margin-left: 144px;
-    margin-right: 144px;
+    padding: 0 144px;
   }
   &__p {
     font-weight: 400;
@@ -67,27 +70,27 @@
       line-height: 36px;
       width: 381px;
       height: 108px;
-
     }
   }
-}
-.return {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 68px;
-  width: 216px;
-  font-size: 14px;
-  font-weight: 700;
-  background-color: #333333;
-  color: #ffffff;
-  text-decoration: none;
+  &__return {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    width: 216px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+  }
 }
 
 .text-footer {
-  width: 100%;text-align: center;
-  // background: PapayaWhip;
+  width: 100%;
+  text-align: center;
+  background: PapayaWhip;
   position: fixed;
   bottom: 0;
 }
