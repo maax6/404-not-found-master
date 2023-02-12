@@ -5,7 +5,7 @@
   flex-direction: column;
   padding: 20px 24px;
   min-height: 100vh;
-  justify-content: space-between;
+  // justify-content: space-between;
   @include media-query(medium) {
   }
   @include media-query(large) {
@@ -20,18 +20,45 @@
   line-height: 25px;
   letter-spacing: -0.08em;
 }
-.flexContainer {
+.main{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  
+}
+.flexContainer {
+  // border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow:1;
+  height: 100%;
+  max-width: 600px;
   @include media-query(large) {
     flex-direction: row;
-    height: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}
+.panoramic{
+  display: flex;
+  flex-direction: column;
+  // border: solid red 4px;
+  @include media-query(large) {
+    flex-direction: row;
+    max-width: 100%;
+
   }
 }
 .scarecrow {
   display: flex;
-  width: 100%;
+
+  padding: 0 20px;
+  // border: solid 2px rgb(19, 90, 182);
   @include media-query(large) {
+    padding: 0;
   }
   &__img {
     width: 100%;
@@ -40,14 +67,16 @@
 }
 
 .badNews {
+  border: solid 1px red;
   @include media-query(large) {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   &__texts {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     &__title {
       font-size: 45px;
       line-height: 71px;
@@ -69,11 +98,11 @@
     }
   }
   &__btn {
+    min-height: 68px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 68px;
+    align-items: center;
     max-width: 216px;
     font-size: 14px;
     font-weight: 700;
@@ -94,8 +123,6 @@
   // position: fixed;
   // bottom: 0;
   // left: 0px;
-  @include media-query(xsmall) {
-    max-width: 100%;
-  }
+
 }
 /*--- Fin Error ---*/
