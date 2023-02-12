@@ -6,9 +6,9 @@ export default function Error() {
       <header className="notFound">
         <strong>404 NOT FOUND</strong>
       </header>
-      
-        <div className="flexContainer">
-          <div className="panoramic">
+
+      <div className="flexContainer">
+        <div className="panoramic">
           <div className="scarecrow">
             <img className="scarecrow__img" src={scarecrow} alt="épouvantail" />
           </div>
@@ -27,10 +27,9 @@ export default function Error() {
               <span className="badNews__btn__txt">BACK TO HOMEPAGE</span>
             </a>
           </section>
-          </div>
         </div>
-        <p className="text-footer">created by ⌘ Maxime - devChallenges.io</p>
-      
+      </div>
+      <p className="text-footer">created by ⌘ Maxime - devChallenges.io</p>
     </div>
   )
 }
