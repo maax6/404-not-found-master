@@ -22,7 +22,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
@@ -32,7 +31,6 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-<!-- OVERVIEW -->
 
 ## Overview
 
@@ -40,36 +38,39 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- You can see deployement by clicking on DEMO above. Open DevTool and resize as you wish.
+- Try to avoid fixed widths as much as possible they are unconvenients and time-consuming for responsive coding. 
+- Nested containers and flex are powerfull.
+- BEM is cool, please enjoy [cheat sheet](#acknowledgements) for naming inspiration in section below.
+- It was like tinkering, you know when you start but never when you finish. 
+- I played with Github, created another account and did a pull request. I Used rebase, branches. SSH keys to work on same project on two differents machines.
+- Next project i'll use styled component.
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
+- [Vite.js](https://vitejs.dev/)
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [SASS](https://sass-lang.com/)
+- [Prettier](https://prettier.io/)
+- [React Dom](https://fr.reactjs.org/docs/react-dom.html)
+- [Git]
 
 ## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
-
+- [FlexBoxFroggy](https://flexboxfroggy.com/#fr) Put some music and speeddrun this game.
+- [StackOverflow](https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b) 4 different methods to handle footer position. I tried to innovate and uses justify-content: space-between to fix footer. (งツ)ว
+- [FlexBoxFroggy](https://flexboxfroggy.com/#fr) Put some music and speeddrun this game.
+- [BEM Cheat Sheet](https://9elements.com/bem-cheat-sheet/)
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@maax6](https://{github.com/your-usermame})
+- Twitter [@Maximedevweb](https://twitter.com/Maximedevweb)
