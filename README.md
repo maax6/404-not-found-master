@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://404-not-found-master-seven.vercel.app/">
+    <a href="https://404-not-found-master-flame.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -34,12 +34,14 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot desktop]()
+![screenshot desktop]()
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - You can see deployement by clicking on DEMO above. Open DevTool and resize as you wish.
-- Try to avoid fixed widths as much as possible they are unconvenients and time-consuming for responsive coding. 
+- Try to avoid fixed widths as much as possible they are unconvenients and time-consuming for responsive coding.
+- You can reduce page's width in de DevTool to 187.50px (A lmost as small as a SmartWatch) the component stills usable/readable.
 - Nested containers and flex are powerfull.
 - BEM is cool, please enjoy [cheat sheet](#acknowledgements) for naming inspiration in section below.
 - It was like tinkering, you know when you start but never when you finish. 
