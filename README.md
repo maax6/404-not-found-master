@@ -34,9 +34,8 @@
 
 ## Overview
 
-![screenshot desktop](https://raw.githubusercontent.com/maax6/404-not-found-master/containers/public/Screenshot-removebg-desktop.png)
-![screenshot desktop](https://raw.githubusercontent.com/maax6/404-not-found-master/containers/public/Iphone%2011.png)
- Welcome 
+![screenshot desktop](https://raw.githubusercontent.com/maax6/404-not-found-master/containers/public/Screenshot-removebg-desktop.png) ![screenshot desktop](https://raw.githubusercontent.com/maax6/404-not-found-master/containers/public/Iphone%2011.png)
+ - Welcome :)
 - You can see deployement by clicking on DEMO above. Open DevTool and resize as you wish.
 - Try to avoid fixed widths as much as possible they are unconvenients and time-consuming for responsive coding.
 - You can reduce page's width in de DevTool to 187.50px (A lmost as small as a SmartWatch) the component stills usable/readable.
@@ -47,6 +46,7 @@
 - Next project i'll use styled component.
 - I have to notive that Vercel deployment doen't work on real mobile device.
 - Will fix this for next challenge
+- If you know why, please pull request :)
 
 ### Built With
 
