@@ -34,11 +34,9 @@
 
 ## Overview
 
-![screenshot desktop]()
-![screenshot desktop]()
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
+![screenshot desktop](https://raw.githubusercontent.com/maax6/404-not-found-master/containers/public/Screenshot-removebg-desktop.png)
+![screenshot desktop](https://raw.githubusercontent.com/maax6/404-not-found-master/containers/public/Iphone%2011.png)
+ Welcome 
 - You can see deployement by clicking on DEMO above. Open DevTool and resize as you wish.
 - Try to avoid fixed widths as much as possible they are unconvenients and time-consuming for responsive coding.
 - You can reduce page's width in de DevTool to 187.50px (A lmost as small as a SmartWatch) the component stills usable/readable.
@@ -47,6 +45,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - It was like tinkering, you know when you start but never when you finish. 
 - I played with Github, created another account and did a pull request. I Used rebase, branches. SSH keys to work on same project on two differents machines.
 - Next project i'll use styled component.
+- I have to notive that Vercel deployment doen't work on real mobile device.
+- Will fix this for next challenge
 
 ### Built With
 
@@ -56,7 +56,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - [SASS](https://sass-lang.com/)
 - [Prettier](https://prettier.io/)
 - [React Dom](https://fr.reactjs.org/docs/react-dom.html)
-- [Git]
+- [Git](https://git-scm.com/)
 
 ## Features
 
@@ -69,7 +69,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 - [FlexBoxFroggy](https://flexboxfroggy.com/#fr) Put some music and speeddrun this game.
-- [StackOverflow](https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b) 4 different methods to handle footer position. I tried to innovate and uses justify-content: space-between to fix footer. (งツ)ว
+- [StackOverflow](https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b) 4 different methods to handle footer position. I tried to innovate and used justify-content:space-between to fix footer.
 - [FlexBoxFroggy](https://flexboxfroggy.com/#fr) Put some music and speeddrun this game.
 - [BEM Cheat Sheet](https://9elements.com/bem-cheat-sheet/)
 ## Contact
