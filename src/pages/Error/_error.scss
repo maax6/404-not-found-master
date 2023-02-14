@@ -54,10 +54,11 @@
     max-width: 1440px;
   }
 }
-.scarecrow {
-  display: flex;
-  justify-content: center;
-  flex-shrink: 2;
+  .scarecrow {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 2;
+    align-items: center;
   @include media-query(large) {
   }
   &__img {
@@ -75,6 +76,7 @@
   flex-grow:2;
   flex-direction: column;
   justify-content: space-around;
+  gap: 30px;
   @include media-query(large) {
     justify-content: space-between;
     flex-grow: 0;
@@ -83,8 +85,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-   
-   
+    gap: 60px;
     &__title {
       font-size: 45px;
       line-height: 71px;
