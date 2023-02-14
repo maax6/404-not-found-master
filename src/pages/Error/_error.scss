@@ -57,6 +57,7 @@
 .scarecrow {
   display: flex;
   justify-content: center;
+  flex-shrink: 2;
   @include media-query(large) {
   }
   &__img {
@@ -65,7 +66,6 @@
     max-height: 530px;
     @include media-query(large) {
       max-height: none;
-      padding: 0 30px 30px 0;
     }
   }
 }
