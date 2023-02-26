@@ -44,7 +44,7 @@
 - It was like tinkering, you know when you start but never when you finish. 
 - I played with Github, created another account and did a pull request. I Used rebase, branches. SSH keys to work on same project on two differents machines.
 - Next project i'll use styled component.
-- I have to notive that Vercel deployment doen't work on real mobile device.
+- I have to notice that Vercel deployment doen't work on real mobile device.
 - Will fix this for next challenge
 - If you know why, please pull request :)
 
