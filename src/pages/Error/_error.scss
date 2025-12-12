@@ -1,4 +1,5 @@
 /*--- Error ---*/
+@use '../../sass/_utils/mixins' as *;
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&display=swap');
 .wrapper-404 {
   display: flex;
@@ -23,7 +24,6 @@
   @include media-query(large) {
     padding-bottom: 0;
   }
-
 }
 .main {
   display: flex;
@@ -45,7 +45,7 @@
 }
 .panoramic {
   display: flex;
-  flex:1;
+  flex: 1;
   flex-direction: column;
   justify-content: space-around;
   @include media-query(large) {
@@ -54,11 +54,11 @@
     max-width: 1440px;
   }
 }
-  .scarecrow {
-    display: flex;
-    justify-content: center;
-    flex-shrink: 2;
-    align-items: center;
+.scarecrow {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 2;
+  align-items: center;
   @include media-query(large) {
   }
   &__img {
@@ -73,7 +73,7 @@
 
 .badNews {
   display: flex;
-  flex-grow:2;
+  flex-grow: 2;
   flex-direction: column;
   justify-content: space-around;
   gap: 30px;
